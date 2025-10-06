@@ -17,6 +17,7 @@ If you can't scan the QR code:
 2. Enter your **Certificate ID** (found on your certificate)
 3. Click "Verify" to see your achievement details
 
+### Certificates Tier System
 | **Titan Tier** | **Trophy Tier** | **Tutor Tier** | **Taskforce Tier** |
 |:----------:|:----------:|:--------------:|:---------------:|
 | <img src="./assets/tier1.png" alt="Legend Certificate" width="120" height="90"> | <img src="./assets/tier2.png" alt="Leader Certificate" width="120" height="90"> | <img src="./assets/tier3.png" alt="Competitor Certificate" width="120" height="90"> | <img src="./assets/tier4.png" alt="Contributor Certificate" width="120" height="90"> |
