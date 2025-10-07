@@ -5,7 +5,7 @@ This is AURAK's Coding Club official verification system for certificates! Wheth
 ### Certificates Tier System
 | **Titan Tier** | **Trophy Tier** | **Tutor Tier** | **Taskforce Tier** |
 |:----------:|:----------:|:--------------:|:---------------:|
-| <img src="./assets/titan-tier.png" alt="Titan Tier" width="150" height="100"> | <img src="./assets/trophy-tier.png" alt="Trophy Tier" width="150" height="100"> | <img src="./assets/tutor-tier.png" alt="Tutor Tier" width="150" height="100"> | <img src="./assets/taskforce-tier.png" alt="Taskforce Tier" width="150" height="100"> |
+| <img src="./assets/titan-tier.png" alt="Titan Tier" width="200" height="120"> | <img src="./assets/trophy-tier.png" alt="Trophy Tier" width="200" height="120"> | <img src="./assets/tutor-tier.png" alt="Tutor Tier" width="200" height="120"> | <img src="./assets/taskforce-tier.png" alt="Taskforce Tier" width="200" height="120"> |
 
 ###  Certificate JSON Structure
 
