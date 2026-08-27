@@ -17,12 +17,22 @@ This is AURAK's Coding Club official verification system for certificates! Wheth
   "date": "Issue date in YYYY-MM-DD format",
   "tier": "Tier level (1-4): 1=Titan, 2=Trophy, 3=Tutor, 4=Taskforce",
   "status": "Certificate status: 'valid' or 'revoked'",
+  "signedBy": "Which issuer key to verify against (see Issuers below) — omitted on older certificates, which verify against public_key.pem",
   "digitalSignature": "Base64-encoded RSA-PSS signature for verification"
 }
 ```
 
 > [!TIP]
 > A revoked certificate means that it has been invalidated, but its signature remains verifiable.
+
+### Issuers
+
+Certificates in this repository may be signed by more than one authorized club officer. Each issuer has their own RSA key pair; the `signedBy` field on a certificate (when present) tells you which public key to verify it against. Certificates without a `signedBy` field predate this and verify against `public_key.pem`.
+
+| `signedBy` value | Public key file | Issuer |
+|---|---|---|
+| _(absent)_ | `public_key.pem` | Nour Mostafa |
+| `riyad-almasri` | `public_key_riyad.pem` | Riyad Almasri |
 
 ### FAQ
 __1. What if the verification fails?__ <br> Try scanning again with better lighting or with an adjusted distance (closer/further). If it still doesn't work, contact the club's crew with your Certificate ID. <br> 
